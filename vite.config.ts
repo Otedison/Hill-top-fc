@@ -14,7 +14,9 @@ export default defineConfig({
   },
   server: {
     // Render/preview URLs (for SSR dev server proxying / host validation)
-    allowedHosts: ["hilltop-fc-hub.onrender.com"],
+    allowedHosts: [
+      "hilltop-fc-hub.onrender.com",
+      "hill-top-fc.onrender.com",
+    ],
   },
 });
-
